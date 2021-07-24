@@ -23,7 +23,7 @@ public class RequestUtils {
 
 
     private static final String TAG = "requestApi";
-    public static String serverUrl = "http://47.105.145.222:8889/wpmapi";
+    public static String serverUrl = "";
 
     public static String token = null;
     public static String i18n = null;
