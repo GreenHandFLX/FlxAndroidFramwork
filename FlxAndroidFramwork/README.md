@@ -2,11 +2,10 @@
 
 MianActivity是本框架应用的demo
 
-1 Evenbus
-EventBus是一种用于Android的事件发布-订阅总线，由GreenRobot开发，Gihub地址是：EventBus。
-它简化了应用程序内各个组件之间进行通信的复杂度，尤其是碎片之间进行通信的问题，可以避免由于使用广播通信而带来的诸多不便。
+1 框架引入Evenbus
+EventBus是一种用于Android的事件发布-订阅总线，它简化了应用程序内各个组件之间进行通信的复杂度，尤其是碎片之间进行通信的问题，可以避免由于使用广播通信而带来的诸多不便。
 
-2 XUI（UI框架)。
+2 框架引入XUI（UI框架)。
 
 3 Fresco，facebook推出的图片加载框架。
 
@@ -54,5 +53,6 @@ LoggingInterceptor为登录的拦截，劫持工具包，本框架在此工具�
 
 19 StringUtils  SystemTool ViewUtils   常用工具类
 
-20 这是本框架的初版，作者会不定期更新框架内容。更新框架架构等
+20 作者非Android科班出身，对于Android开发模式还停留在MVC层面上，因此本项目还是简单的MVC模式，MVC开发模式开发中小项目足矣，如果大项目，会显得Model层特别臃肿
+这是本框架的初版，作者会不定期更新框架开发模式，暂定年前完成本框架的MVP MVVM版本
 
