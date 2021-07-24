@@ -5,7 +5,7 @@ MianActivity是本框架应用的demo
 1 框架引入Evenbus
 EventBus是一种用于Android的事件发布-订阅总线，它简化了应用程序内各个组件之间进行通信的复杂度，尤其是碎片之间进行通信的问题，可以避免由于使用广播通信而带来的诸多不便。
 
-2 框架引入XUI（UI框架)。
+2 框架引入XUI（UI框架)。XUI框架涵盖绝大部分的UI组件：TextView、Button、EditText、ImageView、Spinner、Picker、Dialog、PopupWindow、ProgressBar、LoadingView、StateLayout、FlowLayout、Switch、Actionbar、TabBar、Banner、GuideView、BadgeView、MarqueeView、WebView、SearchView等一系列的组件和丰富多彩的样式主题。
 
 3 Fresco，facebook推出的图片加载框架。
 
