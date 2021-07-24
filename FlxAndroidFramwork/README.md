@@ -1,5 +1,7 @@
 ## 框架介绍
 
+MianActivity是本框架应用的demo
+
 1 Evenbus
 EventBus是一种用于Android的事件发布-订阅总线，由GreenRobot开发，Gihub地址是：EventBus。
 它简化了应用程序内各个组件之间进行通信的复杂度，尤其是碎片之间进行通信的问题，可以避免由于使用广播通信而带来的诸多不便。
@@ -33,7 +35,7 @@ EventBus是一种用于Android的事件发布-订阅总线，由GreenRobot开发
 
 10 common--->base，自定义SelectorFragmentPagerAdapter。通用viewPagerAdapter
 
-11 common--->MultiLanguage，MultiLanguage，搭建了多语言环境，此环境支持国语，英文，粤语。如需修改请自行修改
+11 common--->MultiLanguage，MultiLanguage，搭建了多语言环境，此环境支持国语，英文，粤语。环境已经搭好，粘贴代码直接用即可。
 
 12 common--->OkHttp，OkHttp搭建了Http 环境。
 LoggingInterceptor为登录的拦截，劫持工具包，本框架在此工具包中实现了 “若依框架” 的 “登录超时” 功能。如需修改请自行修改
@@ -51,5 +53,6 @@ LoggingInterceptor为登录的拦截，劫持工具包，本框架在此工具�
 18 ShareUtils  作者自定义分享功能工具类，可改成分享文档、图片、文件等等，此工具类中包含文件下载(自行在activity中实现)，保存等等
 
 19 StringUtils  SystemTool ViewUtils   常用工具类
- 
+
+20 这是本框架的初版，作者会不定期更新框架内容。更新框架架构等
 
