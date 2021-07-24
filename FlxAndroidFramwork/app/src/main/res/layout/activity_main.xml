@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F4F5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testMul"></TextView>
+
+            <Button
+                android:id="@+id/selectMul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="切换多语言为英文（写死了）">
+
+            </Button>
+
+            <Button
+                android:id="@+id/testokHttp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测试Okhttp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/testVideoplayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="视频播放">
+
+            </Button>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_splash"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <Button
+                android:id="@+id/sharePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="分享照片">
+
+            </Button>
+
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true" />
+
+
+            <ListView
+                android:id="@+id/testlistview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+            </ListView>
+
+
+            <Button
+                android:id="@+id/testphotoPermission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测试获取相机权限，看log">
+
+            </Button>
+
+
+            <com.bin.david.form.core.SmartTable
+                android:id="@+id/testsmarttable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.widget.LinearLayout>

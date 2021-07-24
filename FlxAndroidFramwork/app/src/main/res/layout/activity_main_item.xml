@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F4F5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/testMyadapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aaaa"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/testMyadapter2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aaaa"
+        >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/testMyadapter3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+</android.widget.LinearLayout>
